@@ -1,4 +1,44 @@
-html {
+html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+}
+
+.header-container {
+  background-image: url('images/home.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.header-container2 {
+  background-image: url('images/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  background-color: transparent !important; /* Important to override Bootstrap's default background */
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: white; /* Text color for navbar links and brand */
+}
+.title-section {
+  padding: 100px 0; /* Adjust padding as needed */
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.content-section {
+  background-color: #c12e74;
+  color:white;
+  font-size: 18px;
+  padding: 100px 0; /* Adjust padding as needed */
+}
+
+#section2 {
+  background-color: #ffffff;
+  color:#c12e74;
+  font-size: 18px;
+  padding: 100px 0; /* Adjust padding as needed */
 }
